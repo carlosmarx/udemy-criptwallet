@@ -1,6 +1,11 @@
+<p> <%= link_to "Aplicação em Português", root_path(locale: 'pt-BR') %> | <%= link_to "Aplicação em Inglês", root_path(locale: 'en') %> </p>
+
 <h1>Seja bem vindo!</h1>
 
-<h4>O idioma usado nessa aplicação é: <%= locale(I18n.locale) %><h4>
-<h4>Data <%= Date.today %><h4>
+
+<h4>O idioma usado nessa aplicação é: <%= t('current_locale') %><h4>
+<h4>Data <%= l(Date.today) %><h4>
+
+<p><%= I18n.t('hello') %></p>
 
 <%= render "menu"  %>
