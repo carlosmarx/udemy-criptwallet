@@ -36,7 +36,9 @@ en:
   messages:
     description: "Criptowallet, an app for you register and keep up your criptcoins."
     menu: "To start chosse an option bellow:"
+    confirm: "Are you shure?"
   links:
     edit: "Edit"
     show: "Show"
     delete: "Destroy"
+    new: "New Register"
