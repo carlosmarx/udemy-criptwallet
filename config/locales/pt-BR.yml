@@ -2,6 +2,10 @@
 pt-BR:
   hello: "Olá Mundo"
   current_locale: "Português do Brasil"
+  welcome: "Seja bem-vindo!"
+  messages:
+    description: "Criptowallet, um app para você cadastrar e acompanhar suas criptomoedas."
+    menu: "Para começar selecione uma das opções abaixo:"
   links:
     edit: "Editar"
     show: "Mostrar"

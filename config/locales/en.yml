@@ -32,6 +32,10 @@
 en:
   hello: "Hello world"
   current_locale: "English USA"
+  welcome: "Welcome!"
+  messages:
+    description: "Criptowallet, an app for you register and keep up your criptcoins."
+    menu: "To start chosse an option bellow:"
   links:
     edit: "Edit"
     show: "Show"
