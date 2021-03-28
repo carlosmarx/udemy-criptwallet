@@ -1,14 +1,16 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @mining_type.description %>
-</p>
+<table class="table table-hover table-bordered">
+  <tr>
+    <td width="25%">Description:</td>
+    <td><%= @mining_type.description %></td>
+  </tr>
 
-<p>
-  <strong>Acronym:</strong>
-  <%= @mining_type.acronym %>
-</p>
+  <tr>
+    <td>Acronym:</td>
+    <td><%= @mining_type.acronym %></td>
+  </tr>
+</table>
 
-<%= link_to 'Edit', edit_mining_type_path(@mining_type) %> |
-<%= link_to 'Back', mining_types_path %>
+<%= link_to t('links.edit'), edit_mining_type_path(@mining_type), class:"btn btn-info"%>
+<%= link_to t('links.back'), mining_types_path, class:"btn btn-danger" %>

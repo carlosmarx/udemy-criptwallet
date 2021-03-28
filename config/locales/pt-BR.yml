@@ -11,7 +11,16 @@ pt-BR:
     edit: "Editar"
     show: "Mostrar"
     delete: "Apagar"
-    new: "Cadastrar Novo"
+    back: "Voltar"
+  new: 
+    coin: "Nova Moeda"
+    mining_type: "Novo Tipo de Mineração"
+  editing: 
+    coin: "Editando Moeda"
+    mining_type: "Editando Tipo de Mineração"
+  showing: 
+    coin: "Mostrando Moeda"
+    mining_type: "Mostrando Tipo de Mineração"
   activerecord:
     models:
       coin: 
@@ -28,8 +37,8 @@ pt-BR:
         description: Descrição
         acronym: Sigla
         url_image: URL da Imagem
-        mining_type: Tipo de Mieração
-        mining_type_id: Tipo de Mieração
+        mining_type: Tipo de Mineração
+        mining_type_id: Tipo de Mineração
       mining_type: 
         id: Código
         created_at: Criado em
